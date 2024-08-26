@@ -1,0 +1,329 @@
+*{
+    background-color: #0e0e0e;
+    color:#9ba3b4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.head1 {
+    display: flex;
+    align-items: center;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+.nav-bar img{
+    height:2.5rem;
+    padding-left: 50px;
+}
+.nav-bar h1{
+    color:#e9eaeb;
+    display: inline-block;
+    font-size: 20px;
+}
+.head1 a{
+    text-decoration: none;
+    padding-left: 1.5rem;
+    font-weight: 500;
+}
+.head1 a:hover{
+    color: #e9eaeb;
+    font-weight: 550;
+}
+.nav-end{
+    display: flex;
+    align-items: center;
+    padding-left: 10rem;
+}
+#one{
+    border: #0e0e0e;
+}
+#one:active{
+    background-color: white;
+}
+.search-icon input{
+    width: 200px;
+    height: 15px;
+    padding: 5px 12px 5px 1rem;
+    border: #0e0e0e;
+    outline: none;
+}
+.search-icon{
+    padding-left: 0.8rem;
+    border:1px solid rgb(34, 33, 33);
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.search-icon:focus-within{
+    border:1px solid #0079d5;
+}
+.search-icon i{
+    rotate: 90deg;
+}
+#two{
+    margin-left: 0.5rem;
+    border: #272626;
+    background-color: #0079d5;
+    font-weight: 900;
+    color:white;
+    width: 106px;
+    height: 2rem;
+    font-size: 16px;
+    margin-right:20px;
+}
+#two:hover{
+    background-color:#095792;
+    cursor:pointer;
+}
+.head2{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 5rem;
+}
+.head2 a{
+    color:#4daafc;  
+    padding-left: 25rem; 
+}
+.head2 a:hover{
+    cursor:pointer;
+}
+.head2 button{
+    border: #0e0e0e;
+    padding-left: 24rem;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+.himg{
+    background-image: url(hero.png);
+    width: 800px;
+    height: 507px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top:1rem;
+    margin-right: 7.5rem;
+    padding: 0px 0px 0px 0px;
+}
+.htext{
+    margin-left: 5rem;
+}
+.htext h2{
+    color:#e9eaeb;
+    font-size: 56px;
+    display: inline;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    height:360px;
+    width:140px;
+}
+.htext button{
+    width: 240px;
+    height: 50px;
+    background-color: #0078d4;
+    font-size: 18px;
+    color:#ffffff;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.htext button:hover{
+        background-color:#095792;
+        cursor:pointer;
+}
+#p1 a,#p2 a{
+    color:#4daafc;
+    font-weight: 600;
+    text-decoration: underline;
+    height:18px;
+}
+#p1 a:hover{
+    cursor:pointer;
+}
+#p2 a:hover{
+    cursor:pointer;
+}
+#p2{
+    font-size: 11px;
+}
+.hero2,.hero3,.hero4,.hero5,.hero6{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.h2text,.h3text{
+    width: 360px;
+    font-weight: 700;
+}
+.h2text h2,.h3text h2,.h4text h2,.h5text h2,.h6text h2,.end-text h2{
+    color:#ffffff;
+    font-size: 30px;
+    margin-top: 0rem;
+}
+.h3text a{
+    text-decoration: underline;
+    color:#4daafc;
+    font-weight: 900;
+}
+.h3text a:hover{
+    cursor:pointer;
+}
+.h2img{
+    background-image: url(hero2.png);
+    height:20rem;
+    width:45rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.h3img{
+    background-image: url(hero3.png);
+    height:25rem;
+    width:50rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 0px;
+}
+#extnp{
+    margin-left:45rem;
+}
+#extnp a{
+    color:#4daafc;
+    text-decoration: underline;
+}
+#extnp a:hover{
+    cursor:pointer;
+}
+.h4text pre a,.h5text pre a,.h6text pre a{
+    color:#4daafc;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.h4text pre a{
+    cursor:pointer;
+}
+.h5text pre a{
+    cursor:pointer;
+}
+.h6text pre a{
+    cursor: pointer;
+}
+.h4img{
+    background-image: url(hero4.png);
+    height:30rem;
+    width:47rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 7rem;
+    margin-top: 0rem;
+}
+.hero4,.hero5,.hero6,.end-text,.boxes,footer{
+    margin-top: 5rem;
+}
+.h5img{
+    background-image: url(hero5.png);
+    height:30rem;
+    width:47rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 7rem;
+    margin-top: 0rem;
+}
+.h6img{
+    background-image: url(hero6.png);
+    height:30rem;
+    width:47rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 7rem;
+    margin-top: 0rem;
+}
+.endtext1{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: none;
+}
+.endtext2{
+    width:500px;
+    display: flex;
+    justify-content: center;
+    margin-left: 32rem;
+    margin-top:none;
+}
+.border{
+    border:0.5px solid transparent;
+    transition-duration: 0.5s;
+}
+.border:hover{
+    border: 0.5px solid rgb(106, 91, 91);
+    cursor: pointer;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    width:290px;
+    height: 220px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    border:2px solid #272626
+}
+.box-row-1,.box-row-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.box1{
+    background-image: url(f1.png);
+}
+.box2{
+    background-image: url(f2.png);
+    margin-top: 5px;
+}
+.box3{
+    background-image: url(f3.png);
+    margin-top: 5px;
+}
+.box4{
+    background-image: url(f4.png);
+    margin-top: 5px;
+}
+.box5{
+    background-image: url(f5.png);
+    margin-top: 2px;
+}
+.box6{
+    background-image: url(f6.png);
+}
+.box7{
+    background-image: url(f7.png);
+}
+.box8{
+    background-image: url(f8.png);
+}
+footer{
+    margin-left: 7rem;
+}
+.footopt i{
+    margin-right: 1rem;
+}
+#windows{
+    margin-left: 70rem;
+}
+.foottext{
+    font-size: 12px;
+}
+.foottext a{
+    margin-right: 1.2rem;
+}
+footer:hover{
+    cursor: pointer;
+}
