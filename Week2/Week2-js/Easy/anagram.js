@@ -5,6 +5,7 @@
 */
 
 function sort(str){
+    str=str.toLowerCase();
     let arr=str.split('')
     for(let i=0;i<arr.length;i++){
         for(let j=i;j<arr.length;j++){
@@ -23,5 +24,4 @@ function sort(str){
 function isAnagram(str1, str2) {
     return sort(str1)===sort(str2)
 }
-console.log(isAnagram("aman","naam"))
 module.exports = isAnagram;

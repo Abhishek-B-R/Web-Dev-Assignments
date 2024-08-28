@@ -1,0 +1,175 @@
+npx jest
+ PASS  ./expenditure-analysis.test.js
+ PASS  ./todo-list.test.js
+  ● Console
+
+    console.log
+      [ 'Task 1', 'Updated Task 2', 'Task 3' ]
+
+      at Object.log (../Hard/todo-list.js:47:9)
+
+ PASS  ./anagram.test.js
+  ● Console
+
+    console.log
+      eilnst
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      eilnst
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+       aaefilrsty
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+       aaefilrsty
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      aeinop
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      aeinop
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      ehllo
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      dlorw
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      aeinop
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      enop
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      ehllo
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      ehll
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      giknorw
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      nno
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+       abcddeirt
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+       abcddeirt
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+       acehlmoorsst
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+       acehlmoorsst
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      !abc
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      !abc
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      ehllo
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      !ehllo
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      !aeinop
+
+      at log (../Easy/anagram.js:20:13)
+
+    console.log
+      enop
+
+      at log (../Easy/anagram.js:20:13)
+
+ PASS  ./palindrome.test.js
+ PASS  ./findLargestElement.test.js
+ PASS  ./countVowels.test.js
+  ● Console
+
+    console.log
+      3
+
+      at Object.log (../Medium/countVowels.js:17:9)
+
+ FAIL  ./calculator.test.js
+  ● Test suite failed to run
+
+    Can't divide by zero
+
+      59 |             // Check if the result is finite and valid
+      60 |             if (!isFinite(this.ans)) {
+    > 61 |                 throw new Error("Can't divide by zero");
+         |                       ^
+      62 |             }
+      63 |         } catch (error) {
+      64 |             // Re-throw errors for test cases to catch
+
+      at Calculator.calculate (../Hard/calculator.js:61:23)
+      at Object.calculate (../Hard/calculator.js:76:6)
+      at Object.<anonymous> (calculator.test.js:1:49)
+
+Test Suites: 1 failed, 6 passed, 7 total
+Tests:       33 passed, 33 total
+Snapshots:   0 total
+Time:        1.343 s
+Ran all test suites.
