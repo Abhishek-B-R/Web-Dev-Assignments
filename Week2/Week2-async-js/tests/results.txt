@@ -1,0 +1,28 @@
+=>npx jest
+ PASS  ./2-sleep-completely.test.js (6.49 s)
+  ● Console
+
+    console.log
+      done
+
+      at Timeout.log [as _onTimeout] (../Hard/sleep-completely.js:6:21)
+
+    console.log
+      done
+
+      at Timeout.log [as _onTimeout] (../Hard/sleep-completely.js:6:21)
+
+    console.log
+      done
+
+      at Timeout.log [as _onTimeout] (../Hard/sleep-completely.js:6:21)
+
+ PASS  ./1-promisify-setTimeout.test.js (6.516 s)
+ PASS  ./4-promise-chain.test.js (18.53 s)
+ PASS  ./3-promise-all.test.js (20.48 s)
+
+Test Suites: 4 passed, 4 total
+Tests:       13 passed, 13 total
+Snapshots:   0 total
+Time:        20.895 s
+Ran all test suites.

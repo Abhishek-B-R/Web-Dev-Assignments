@@ -4,36 +4,32 @@
  * Return a promise.all which return the time in milliseconds it takes to complete the entire operation.
  */
 
-function promisifySettimeout(ms){
-    return new Promise(resolve => setTimeout(resolve,ms))
-}
-
 function wait1(t) {
-    promisifySettimeout(t).then(function(){
-        console.log("Done 1")
-    })
+    return new Promise((resolve) => {
+        setTimeout(resolve, t * 1000);
+    });
 }
 
 function wait2(t) {
-    promisifySettimeout(t).then(function(){
-        console.log("Done 2")
-    })
+    return new Promise((resolve) => {
+        setTimeout(resolve, t * 1000);
+    });
 }
 
 function wait3(t) {
-    promisifySettimeout(t).then(function(){
-        console.log("Done 3")
-    })
+    return new Promise((resolve) => {
+        setTimeout(resolve, t * 1000);
+    });
 }
 
 function calculateTime(t1, t2, t3) {
-    let start=Date.now()
-    wait1(t1)
-    wait2(t2)
-    wait3(t3)
-    let total=Date.now()-start
-    console.log("Done")
-    console.log("Total time taken "+total)
+    const start = Date.now();
+
+    return Promise.all([wait1(t1), wait2(t2), wait3(t3)]).then(() => {
+        const end = Date.now();
+        return end - start;
+    });
 }
-calculateTime(5000,5000,5000)
+
+// Remove this manual call to calculateTime, as it runs outside the test context and causes open handle issues.
 module.exports = calculateTime;
