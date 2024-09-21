@@ -1,0 +1,14 @@
+body{
+    background-color: black; 
+    color: white; 
+    background-image: url(img.webp); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+#img{
+    background-color:white; 
+    height:400px;
+    position: fixed;
+    margin-left: 80rem;
+}

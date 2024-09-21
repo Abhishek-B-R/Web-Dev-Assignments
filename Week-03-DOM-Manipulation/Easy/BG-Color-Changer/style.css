@@ -1,0 +1,42 @@
+#colors{
+    margin-top: 50rem;
+    color:black;
+    margin-left:35rem;
+}
+div{
+    color:black;
+    margin-left:49rem;
+}
+.color{
+    height: 40px;
+    width: 85px;
+    border-radius: 30%;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#black{
+    background-color: black;
+    color:white;
+}
+#purple{
+    background-color: purple;
+}
+#green{
+    background-color:green;
+}
+#blue{
+    background-color: blue;
+}
+#default{
+    background-color: orange;
+}
+#add{
+    background-color:fuchsia;
+    height: 40px;
+    width: 100px;
+    border-radius: 30%;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>BG-Color-Changer</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="colors">
+        <button id="default" class="color" onclick="change('white')">Default</button>
+        <button id="red" class="color" onclick="change('red')">RED</button>
+        <button id="yellow" class="color"  onclick="change('yellow')">YELLOW</button>
+        <button id="black" class="color"  onclick="change('black')">BLACK</button>
+        <button id="purple" class="color"  onclick="change('purple')">PURPLE</button>
+        <button id="green" class="color" onclick="change('green')">GREEN</button>
+        <button id="blue" class="color" onclick="change('blue')">BLUE</button>
+    </div>
+    <div>
+        <span id="span"></span>
+        <button id="add" onclick="addColor()">Add color...</button> 
+    </div>
+</body>
+</html>
