@@ -13,10 +13,41 @@ body{
     align-items: center;
     margin-top: 10rem;
 }
-#start{
+pre button{
+    background-color: rgb(169, 22, 169);
+    width:40rem;
+    height: 3rem;
+    margin-top: 15rem;
+    color:white;
+    font-weight: 900;
+}
+pre h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+pre div{
+    margin-left: 7rem;
+}
+
+button{
     background-color: rgb(169, 22, 169);
     width: 8rem;
     height: 2rem;
     color:white;
     font-weight: 900;
+}
+input{
+    border-radius: 50%;
+}
+#somediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+#reload{
+    margin-left: 12rem;
 }
