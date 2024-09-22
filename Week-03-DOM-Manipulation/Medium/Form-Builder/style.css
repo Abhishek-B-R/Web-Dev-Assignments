@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gainsboro;
+}
+#builder{
+    height: 50rem;
+    width: 50rem;
+    background-color: white;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+#preview{
+    height: 50rem;
+    width: 50rem;
+    background-color: white;
+    padding: 1rem;
+}
+#inputs,#label,#submitBtn{
+    width: 45rem;
+    height: 2.5rem;
+}
+#submitBtn{
+    background-color: rgb(35, 35, 196);
+    margin-top: 5rem;
+    color:white;
+    font-weight: 900;
+}

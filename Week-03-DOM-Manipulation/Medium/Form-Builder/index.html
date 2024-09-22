@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="builder">
+        <h1>Form Builder</h1><br>
+        <h2>Select field input:</h2>
+        <select id="inputs">
+            <option value="text">text</option>
+            <option value="checkbox">checkbox</option>
+            <option value="radio">radio</option>
+            <option value="password">password</option>
+            <option value="number">number</option>
+            <option value="email">email</option>
+        </select><br><br>
+        <h2>Field Label</h2>
+        <input id="label" type="text" placeholder="Enter label here">
+        <button id="submitBtn" onclick="submit()">SUBMIT</button>
+    </div>
+    <div id="preview">
+        <h1>Form Preview</h1>
+    </div>
+</body>
+</html>

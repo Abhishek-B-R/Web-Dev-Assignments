@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taskify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="to-do" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <pre><h1 style="font-weight: 100;">To Do             <i class="fa-solid fa-bars"></i></h1></pre>
+        <div id="todo2"></div>        
+        <div id="todo1"></div>
+        <pre><button onclick="addInputs('todo')">Add new                                                                                            +</button></pre>
+    </div>
+
+    <div id="in-progress" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <pre><h1 style="font-weight: 100;">In Progress           <i class="fa-solid fa-bars"></i></h1></pre>
+        <div id="inprogress2"></div>
+        <div id="inprogress1"></div>
+        <pre><button onclick="addInputs('inprogress')">Add new                                                                                          +</button></pre>
+    </div>
+
+    <div id="under-review" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <pre><h1 style="font-weight: 100;">Under Review             <i class="fa-solid fa-bars"></i></h1></pre>
+        <div id="underreview2"></div>
+        <div id="underreview1"></div>
+        <pre><button onclick="addInputs('underreview')">Add new                                                                                         +</button></pre>
+    </div>
+
+    <div id="finished" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <pre><h1 style="font-weight: 100;">Finished          <i class="fa-solid fa-bars"></i></h1></pre>
+        <div id="finishedDiv2"></div>
+        <div id="finishedDiv1"></div>
+        <pre><button onclick="addInputs('finishedDiv')">Add new                                                                                             +</button></pre>
+    </div>
+</body>
+</html>

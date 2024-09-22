@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    
+}
+div pre h1{
+    position: relative;
+    height: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}   
+div pre button{
+    height: 2rem;
+    width:auto;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+div h2,div p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+div h2{
+    padding-top: 1rem;
+}
+div p{
+    padding-bottom: 1rem;
+}
+#to-do,#in-progress,#under-review,#finished{
+    height: 57rem;
+}
